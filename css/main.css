@@ -1,0 +1,63 @@
+::-moz-selection {
+  background-color: #969696;
+  color: #000;
+}
+
+::selection {
+  background-color: #969696;
+  color: #000;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #969696;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+
+.container h1 {
+  font-size: 5rem;
+  font-family: Impact;
+  font-weight: 900;
+}
+@media (max-width: 767px) {
+  .container h1 {
+    font-size: 2.5rem;
+  }
+}
+.container p,
+.container q {
+  font-size: 2rem;
+  margin: 0.5rem 0;
+}
+@media (max-width: 767px) {
+  .container p,
+.container q {
+    font-size: 1rem;
+  }
+}
+.container q {
+  display: none;
+}
+.container button {
+  background-color: #1317f7;
+  color: #fff;
+  width: 250px;
+  height: 80px;
+  transition: 0.5s;
+}
+.container button:hover {
+  background-color: #13f77a;
+}
+@media (max-width: 319px) {
+  .container button {
+    width: 130px;
+    height: 50px;
+  }
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,56 @@
+// shared variables
+$white: #fff;
+$gray: #969696;
+$black: #000;
+
+::selection {
+  background-color: $gray;
+  color: $black;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: $gray;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  h1 {
+    font-size: 5rem;
+    font-family: Impact;
+    font-weight: 900;
+    @media (max-width: 767px) {
+      font-size: 2.5rem;
+    }
+  }
+  p,
+  q {
+    font-size: 2rem;
+    margin: 0.5rem 0;
+    @media (max-width: 767px) {
+      font-size: 1rem;
+    }
+  }
+  q{
+    display: none;
+  }
+  button {
+    background-color: #1317f7;
+    color: #fff;
+    width: 250px;
+    height: 80px;
+    transition: 0.5s;
+    &:hover {
+      background-color: #13f77a;
+    }
+    @media (max-width: 319px) {
+      width: 130px;
+      height: 50px;
+    }
+  }
+}
